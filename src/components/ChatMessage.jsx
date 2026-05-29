@@ -1,5 +1,5 @@
-import Robotimg from './assets/robot.png'
-import Userimg from './assets/user.png'
+import Robotimg from '../assets/robot.png'
+import Userimg from '../assets/user.png'
     export  function ChatMessage(props) {
         // const message = props.message || "Hello! How can I assist you today?";
         // const sender = props.sender || "bot";
