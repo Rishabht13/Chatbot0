@@ -1,9 +1,9 @@
 import Robotimg from '../assets/robot.png'
 import Userimg from '../assets/user.png'
-    export  function ChatMessage(props) {
+    export  function ChatMessage({ message, sender }) {
         // const message = props.message || "Hello! How can I assist you today?";
         // const sender = props.sender || "bot";
-        const { message, sender } = props;
+       // const { message, sender } = props;
         /*   if(sender === "bot"){
                 return(
                     <div>
